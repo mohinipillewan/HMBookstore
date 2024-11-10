@@ -14,12 +14,13 @@
                    font-family: 'Poppins', sans-serif;
                }
                
+               
                body {
                    background-color: var(--background);
                    color: var(--text);
                    line-height: 1.6;
                }
-               /* Header & Navigation */
+               
                
                header {
                    background: var(--primary);
@@ -65,7 +66,7 @@
                .nav-links a:hover {
                    color: var(--accent);
                }
-               /* Hero Section */
+               
                
                .hero {
                    min-height: 100vh;
@@ -111,7 +112,7 @@
                        transform: translateY(0);
                    }
                }
-               /* Featured Categories */
+               
                
                .featured-categories {
                    padding: 6rem 2rem;
@@ -154,7 +155,7 @@
                    background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
                    color: white;
                }
-               /* Bestsellers Section */
+               
                
                .bestsellers {
                    padding: 6rem 2rem;
@@ -215,7 +216,7 @@
                    color: var(--accent);
                    font-size: 1.2rem;
                }
-               /* Footer */
+               
                
                footer {
                    background: var(--primary);
@@ -261,7 +262,7 @@
                    color: var(--light);
                    cursor: pointer;
                }
-               /* Media Queries */
+             
                
                @media (max-width: 768px) {
                    .nav-links {
@@ -284,32 +285,32 @@
                .blog-post {
                    display: flex;
                    align-items: center;
-                   /* Aligns items vertically in the center */
+                  
                    margin-bottom: 20px;
-                   /* Space between blog posts */
+                   
                }
                
                .post-content {
                    flex: 1;
-                   /* Takes up the remaining space */
+                  
                    padding: 20px;
-                   /* Adds padding around the content */
+                   
                }
                
                .post-image {
                    flex: 0 0 200px;
-                   /* Fixed width for the image */
+                   
                    margin-left: 20px;
-                   /* Space between content and image */
+                   
                }
                
                .post-image img {
                    width: 100%;
-                   /* Makes the image responsive */
+                  
                    height: auto;
-                   /* Maintains aspect ratio */
+                  
                }
-               /* Authors Section */
+               
                
                .authors {
                    padding: 4rem 2rem;
