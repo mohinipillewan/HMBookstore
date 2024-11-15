@@ -313,7 +313,7 @@ footer {
     color: var(--accent);
 }
 
-@media screen and (min-width: 550px) and (max-width: 600px) {
+@media screen and (min-width: 400px) and (max-width: 550px) {
     .nav-container {
         padding: 0 1.5rem;
     }
@@ -328,7 +328,7 @@ footer {
     }
 }
 
-@media screen and (min-width: 550px) and (max-width: 600px) {
+@media screen and (min-width: 400px) and (max-width: 550px) {
     .nav-container {
         flex-direction: column;
         align-items: flex-start;
@@ -352,7 +352,7 @@ footer {
     }
 }
 
-@media screen and (min-width: 550px) and (max-width: 600px) {
+@media screen and (min-width: 400px) and (max-width: 550px) {
     .nav-links {
         flex-direction: column;
         align-items: flex-start;
